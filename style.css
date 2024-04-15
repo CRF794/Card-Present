@@ -1,0 +1,35 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /*altura*/
+    margin: 0;
+}
+.card {
+    width: 300px; /*largura*/
+    padding: 20px;
+    border: 2px solid #000000;
+    border-radius: 8px;
+    box-shadow: 4px 8px 10px rgba(0,0,0,0.7);
+    text-align: center;
+}
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    object-fit: cover;
+    image-resolution: 1200px;
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+p{
+    margin-bottom: 15px;
+}
+
+.about-me {
+    text-align: justify;
+}
